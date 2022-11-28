@@ -8,7 +8,7 @@ public class DownCasting {
 		System.out.println(person.work());
 		
 		
-		//다운캐스팅
+		// 다운캐스팅
 		// 다운캐스팅의 전제조건 : 업캐스팅
 		// 다운캐스팅은 업캐스팅 된 부모객체를 자식개체로 변환하는 것.
 		Student student = (Student) person;

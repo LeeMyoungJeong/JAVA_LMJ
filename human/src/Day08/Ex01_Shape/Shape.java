@@ -18,7 +18,7 @@ public abstract class Shape {
 	// 자식 클래스에서 반드시 오버라이딩 해야만 사용할 수 있는 메소드를 추상메소드라고 한다.
 	// 형식 : abstract 반환타입 메소드명(매개변수);
 	abstract double round();	// 둘레
-	abstract double area(); 	// 넓이                 //객체를 따로 구현하지 않고 선언만 했음.
+	abstract double area(); 	// 넓이  //객체를 따로 구현하지 않고 선언만 했음.
 	// 그 다음에 getter, setter 메소드를 정의해라			  // 객체를 생성할 수 없다. 추상클래스에서는
 	///추상클래스를 상속한 서브 클래스에서 구현해서 사용할 수 있다.
 	//목적 : 다형성을 실현

@@ -18,14 +18,12 @@ public class Rectangle extends Shape {
 	
 	@Override
 	double area() {
-		// TODO Auto-generated method stub
-		return 0;
+		return width *4;
 	}
 
 	@Override
 	double round() {
-		// TODO Auto-generated method stub
-		return 0;
+		return width * height;
 	}
 
 }

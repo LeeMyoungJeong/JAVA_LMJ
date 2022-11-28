@@ -11,7 +11,8 @@ public class Triangle extends Shape {
 	
 	double width, height;
 	public Triangle(double width, double height) {
-		
+		this.width = width;
+		this.height = height;
 	}
 
 	@Override
@@ -24,7 +25,9 @@ public class Triangle extends Shape {
 		// (가로) x (세로) /2
 		return width * height / 2;
 	}
-
+	double round() {
+		return width * 3;
+	}
 
 	
 }
