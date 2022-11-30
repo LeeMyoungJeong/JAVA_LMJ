@@ -1,4 +1,4 @@
-package Day10.Ex01_TriCatch;
+package Day10.Ex01_TryCatch;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

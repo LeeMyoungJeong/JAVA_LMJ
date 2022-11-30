@@ -1,6 +1,5 @@
 package Day09.Ex01_NestedClass;
 
-import Day09.Ex02_StaticNestedClass.A;
 
 class A {
 	//변수

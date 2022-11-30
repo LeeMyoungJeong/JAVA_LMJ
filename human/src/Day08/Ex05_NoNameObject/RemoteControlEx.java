@@ -5,8 +5,8 @@ import Day08.Ex04_Interface.RemoteControl;
 public class RemoteControlEx {
 
 	public static void main(String[] args) {
-		//익명 구현 객체
-		// : 클래스를 정의하지 않고도, 이름ㅇ벗이 구현된 객체
+		// 익명 구현 객체
+		// : 클래스를 정의하지 않고도, 이름없이 구현된 객체
 		
 		RemoteControl rc = new RemoteControl() {
 			

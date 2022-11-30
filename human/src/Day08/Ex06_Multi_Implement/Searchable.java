@@ -3,5 +3,5 @@ package Day08.Ex06_Multi_Implement;
 public interface Searchable {
 
 	void search(String url);
-	
+	//리턴 타입이 없는 search라는 객체(String url);;;;;
 }

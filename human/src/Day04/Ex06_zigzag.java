@@ -57,5 +57,6 @@ public class Ex06_zigzag {
 			System.out.println();
 		}
 		System.out.print(k + " ");
+
 	} 
 }

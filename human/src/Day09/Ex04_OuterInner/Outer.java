@@ -4,7 +4,7 @@ public class Outer {
 	String name = "아우터 클래스";
 	
 	void methodA() {
-		System.out.println("아우터 크래스");
+		System.out.println("아우터 클래스");
 	}
 
 	class Inner {

@@ -1,7 +1,7 @@
 package Day08.Ex04_Interface;
 
-public class Speaker implements RemoteControl {
-
+public class SpeakerPractice implements RemoteControlPractice {
+	
 	private int volume;
 
 	@Override
@@ -16,18 +16,19 @@ public class Speaker implements RemoteControl {
 
 	@Override
 	public void setVolume(int volume) {
-		if( volume > RemoteControl.MAX_VOLUME) {
+		if(volume > RemoteControl.MAX_VOLUME) {
 			this.volume = RemoteControl.MAX_VOLUME;
 		}
 		else if (volume < RemoteControl.MIN_VOLUME) {
 			this.volume = RemoteControl.MIN_VOLUME;
-			}
-		
-		else {
-		this.volume = volume;
+		}else {
+			this.volume = volume;
 		}
-		
-		System.out.println("현재볼륨" + this.volume);
+		System.out.println("현재볼륨" + this.volume
+				);
 	
-}
+	}	
+	
+	
+	
 }

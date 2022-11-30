@@ -1,6 +1,8 @@
 package Day08.Ex01_Shape;
 
-import java.awt.List;
+//import java.awt.List;
+import java.util.List;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class ShapeMaker {
@@ -18,7 +20,7 @@ public class ShapeMaker {
 		
 		// 리스트 : 동적 자료구조 (컬렉션)
 		// 여기서는 Shape 객체들을 담는 목록이다.
-		List<Shape> list = new LinkedList<Shape>();
+		List <Shape> list = new LinkedList<Shape>();
 		
 		while(true) {
 			System.out.println("1.삼각형, 2.사각형, 3.원형");

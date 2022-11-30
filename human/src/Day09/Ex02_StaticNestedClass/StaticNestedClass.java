@@ -1,10 +1,10 @@
 package Day09.Ex02_StaticNestedClass;
 
-class A {
+class AA {
 	int a =5;
 	static int b = 15;
 	
-	void method() {
+	void methodA() {
 		System.out.println("인스턴스 메소드");
 	}
 	static void methodB() {
@@ -19,6 +19,8 @@ class A {
 
 			//System.out.println(a); //static이 아니라 사용 불가(에러발생)
 			System.out.println(b); // b는 static이라서 사용 가능
+			//static 은 모든 종류의 필드와 메소드를 선언할 수 있다.
+			
 			
 			//methodA();
 			methodB();
@@ -29,7 +31,7 @@ class A {
 public class StaticNestedClass {
 	public static void main(String[] args) {
 		//static 이너 클래스의 객체생성
-		A.B b = new A.B();
+		AA.B b = new AA.B();
 		
 		b.methodC();
 	}
