@@ -47,7 +47,7 @@ public class Ex05_ChickenMenu {
 		//변수 선언
 		int menuNo = 0;			//메뉴번호
 		String menuName = "";
-		
+		int N = 0;
 		Scanner sc = new Scanner(System.in);
 		do {
 			//메뉴판 출력
@@ -56,6 +56,7 @@ public class Ex05_ChickenMenu {
 			
 			menuNo = sc.nextInt();
 			if(menuNo == 0) break;
+			System.out.println("총" + N + " 개의 상품이 주문되었습니다.");
 			// switch 쓰면 간단하다.
 			switch (menuNo) {
 			case 1 : menuName = "허니콤보치킨";

@@ -1,6 +1,6 @@
 package Day09.Ex06_EventListener;
 
-public class MessageListener implements Button.OnClickListener{
+public class MessageListener implements ButtonPr.OnClickListener{
 
 	@Override
 	public void onClick() {

@@ -33,30 +33,35 @@ public class Ex06_zigzag {
 		
 		for (int i = 0 ; i < arr.length; i++) {
 			if(sw == 1) {
-				for (int j = 0; j < N; j++) {
+				for (int j = 0; j < N ; j++) {
 					// sw : 1 --> 정방향
 						arr[i][j] = k++;
 						}
+			}
 				if( sw == -1 ) {
 					for (int j = N-1;  j >= 0 ; j--) {
 						arr[i][j] = k++;
 					}
 				}			
 				sw = sw * (-1);  //sw *= -1;   //방향 전환
-			}
+			
+		}
+		
+		
 			for (int i = 0; i < arr.length; i++) {
 				for (int j = 0; j < arr.length; j++) {
-					System.out.println(arr[i][j] + " ");
+					System.out.print(arr[i][j] + " ");
 				}
-			}
-		
-				// sw : -1 --> 역방향
-				
-	
-			}
 			System.out.println();
 		}
-		System.out.print(k + " ");
+				// sw : -1 --> 역방향
+			
+			
+		}
+		
+	
+			
+			
 
-	} 
+	
 }

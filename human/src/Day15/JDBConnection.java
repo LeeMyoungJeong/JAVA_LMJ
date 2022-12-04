@@ -1,6 +1,7 @@
 package Day15;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -23,13 +24,17 @@ public class JDBConnection {
 		//DB에 연결
 		//URL : [PORT]/[스키마]? 옵션파라미터
 		//MySQL
-		String url= "jdbc:mysql://203.245.44.21:3306/alohasoft?serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false";
-		String id = "alohasoft";
-		String pw = "shsh0303*";
+		String url= "jdbc:mysql://localhost:3306/human?serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false";
+		//선생님거 클라우드 데이터베이스임.
+		String id = "human";
+		String pw = "123123";
+		
+		con = DriverManager.getConnection(url, id, pw);
 		System.out.println("DB 연결 성공");
 		
 	}
 		catch(Exception e) {
+			System.out.println("DB 연결 실패");
 			e.printStackTrace();
 		}
 	}

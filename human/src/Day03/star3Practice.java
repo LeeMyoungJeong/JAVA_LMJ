@@ -18,4 +18,4 @@ public class star3Practice {
 				System.out.println();
 			}
 }}
-				 	
+			 	
