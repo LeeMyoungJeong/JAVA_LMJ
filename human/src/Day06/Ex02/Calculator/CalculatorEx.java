@@ -14,7 +14,7 @@ public class CalculatorEx {
 		double multiple = calculator.multiple(a,b);
 		double divide = calculator.divide(a,b);
 		double sum = calculator.sum(a,b);
-		double avg = calculator.avg(a,b);
+		double avg = calculator.avg(a,b);   
 		
 		System.out.println("plus : " + plus);
 		System.out.println("minus : " + minus);
