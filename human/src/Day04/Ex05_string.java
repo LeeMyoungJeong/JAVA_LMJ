@@ -16,4 +16,4 @@ public class Ex05_string {
 		System.out.println(e == f);
 		System.out.println(e.equals(f));	//이렇게 비교하면 스트링 문자 자체를 비교
 }
-}
+}   
